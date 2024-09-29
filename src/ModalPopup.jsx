@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaTimes } from "react-icons/fa";
 
 export default function ModalPopup({ closeModal }) {
@@ -8,18 +9,10 @@ export default function ModalPopup({ closeModal }) {
           <FaTimes className="text-2xl" />
         </button>
         <ul className="flex flex-col items-center gap-4">
-          <li className="cursor-pointer" onClick={closeModal}>
-            Home
-          </li>
-          <li className="cursor-pointer" onClick={closeModal}>
-            About
-          </li>
-          <li className="cursor-pointer" onClick={closeModal}>
-            Portfolio
-          </li>
-          <li className="cursor-pointer" onClick={closeModal}>
-            Contact
-          </li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
         </ul>
       </div>
     </div>

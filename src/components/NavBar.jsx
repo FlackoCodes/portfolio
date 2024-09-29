@@ -13,7 +13,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="py-4 border-b shadow-md">
+      <nav className="py-4 border-b shadow">
         <div className="flex justify-between items-center w-[90%] my-0 mx-auto">
           <div>
             <h1 className="text-2xl font-bold text-black tracking-tight font-sans">
@@ -28,14 +28,13 @@ export default function NavBar() {
               <li>Contact</li>
             </ul>
           </div>
-          {active ? (
-            <FaTimes onClick={modalPopup} className="text-2xl cursor-pointer" />
-          ) : (
-            <RxHamburgerMenu
-              className="md:hidden text-2xl font-bold text-black cursor-pointer"
-              onClick={modalPopup}
-            />
-          )}
+          <div className="md:hidden cursor-pointer" onClick={modalPopup}>
+            {/* {active ? (
+              <FaTimes className="text-2xl" />
+            ) : ( */}
+            <RxHamburgerMenu className="text-2xl font-bold text-black" />
+            {/* )} */}
+          </div>
         </div>
       </nav>
       {active && <ModalPopup closeModal={modalPopup} />}
