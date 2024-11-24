@@ -11,7 +11,7 @@ export default function ModalPopup({ closeModal }) {
         <ul className="flex flex-col items-center gap-4">
           <li>Home</li>
           <li>About</li>
-          <li>Portfolio</li>
+          <li>Projects</li>
           <li>Contact</li>
         </ul>
       </div>

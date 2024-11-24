@@ -1,33 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    scrollbar-color: rgb(142, 142, 142) rgb(255, 255, 255);
-    scrollbar-width: thin;
+  scrollbar-color: rgb(142, 142, 142) rgb(255, 255, 255);
+  scrollbar-width: thin;
+}
+
+body {
+  font-family: "Roboto", system-ui;
 }
 
 @keyframes slide-in {
-    from {
-        transform: translateX(-100%);
-    }
+  from {
+    transform: translateX(-100%);
+  }
 
-    to {
-        transform: translateX(0);
-    }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .animate-slide-in {
-    animation: slide-in 0.3s ease-out forwards;
+  animation: slide-in 0.3s ease-out forwards;
 }
 
-ul>li{
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
+ul > li {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-ul>li:hover{
-    color: rgba(0, 0, 255, 0.941);
-    transition: all ease-in .1s;
+ul > li:hover {
+  color: rgba(0, 0, 255, 0.941);
+  transition: all ease-in 0.1s;
 }
