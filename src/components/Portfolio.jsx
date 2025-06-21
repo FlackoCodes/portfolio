@@ -1,28 +1,43 @@
+import fakye from "../images/fakye.jpg";
+import cleva from "../images/cleva.jpg";
+import mother from "../images/mother.jpg";
+import food from "../images/food.jpg"; // Assuming you have a food image
+
 const projects = [
     {
         title: "Cleva Online Website",
         description: "Worked on the frontend alongside the lead developer, collaborating closely using cutting-edge tech tools to build a clean, efficient, and user-friendly website.",
         tech: ["React", "TailwindCSS", "API"],
-        image: "/projects/weather-app.png", // Place images in public folder
+        image: cleva, // Place images in public folder
         live: "https://cleva.online/",
     },
     {
-        title: "Todo List",
-        description: "A simple and elegant to-do list with localStorage support and smooth animations.",
-        tech: ["HTML", "CSS", "JavaScript"],
-        image: "/projects/todo-list.png",
-        live: "https://your-todo-app.com",
-        github: "https://github.com/yourusername/todo-list",
+        title: "Fakye Waitlist",
+        description: "A clean, responsive web cover designed to showcase Watlist’s brand and engage visitors with clear messaging and smooth visuals.",
+        tech: ["React, TailwindCSS"],
+        image: fakye,
+        live: "https://fakye-waitlist.vercel.app/",
+        github: "https://github.com/FlackoCodes/fakye_waitlist",
     },
     {
 
-        title: "Cake Haven",
+        title: "Food Recipe",
         description:
-            "MVP of a pastry site built for a client featuring mobile responsiveness, API integration, payment processing with the Paystack API, and Firebase authentication implementation.",
+            "A food recipe web app built using a public food API, allowing users to search, add, and favorite different types of meals. Features include mobile responsiveness and Firebase authentication.",
+        tech: ["React", "TailwindCSS", "REST API"],
+        image: food,
+        live: "https://food-recipe-ruby-alpha.vercel.app/",
+        github: "https://github.com/FlackoCodes/food-recipe",
+    },
+    {
+
+        title: "Mother Care Ink",
+        description:
+            "MVP of a pastry e-commerce site built for a client, featuring mobile responsiveness, API integration, Firebase authentication, and payment processing via Paystack. Test credentials: 📧 Email: ybenson96@gmail.com 🔐 Password: test",
         tech: ["React", "TailwindCSS", "Paystack API", "Firebase Auth", "REST API"],
-        image: "/projects/cake-haven.png", // Update with your actual image path
-        live: "https://your-cake-haven-site.com",
-        github: "https://github.com/yourusername/cake-haven",
+        image: mother, // Update with your actual image path
+        live: "http://pos.dealslet.com",
+        github: "",
     }
 
 ];
