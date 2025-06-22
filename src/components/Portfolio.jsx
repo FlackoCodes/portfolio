@@ -33,9 +33,9 @@ const projects = [
 
         title: "Mother Care Ink",
         description:
-            "MVP of a pastry e-commerce site built for a client, featuring mobile responsiveness, API integration, Firebase authentication, and payment processing via Paystack. Test credentials: 📧 Email: ybenson96@gmail.com 🔐 Password: test",
+            "Designed and built a custom sales tracking dashboard to help a small business client monitor her sales performance. The dashboard includes key metrics such as total revenue, monthly trends, top-selling products, and customer insights. Delivered a user-friendly, visually appealing interface to support data-driven decision-making. Test credentials: 📧 Email: ybenson96@gmail.com 🔐 Password: test",
         tech: ["React", "TailwindCSS", "Paystack API", "Firebase Auth", "REST API"],
-        image: mother, // Update with your actual image path
+        image: mother,
         live: "http://pos.dealslet.com",
         github: "",
     }
