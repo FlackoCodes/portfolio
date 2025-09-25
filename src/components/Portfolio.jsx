@@ -1,14 +1,14 @@
 import fakye from "../images/fakye.jpg";
 import cleva from "../images/cleva.jpg";
 import mother from "../images/mother.jpg";
-import food from "../images/food.jpg"; // Assuming you have a food image
+import food from "../images/food.jpg"; 
 
 const projects = [
     {
         title: "Cleva Online Website",
         description: "Worked on the frontend alongside the lead developer, collaborating closely using cutting-edge tech tools to build a clean, efficient, and user-friendly website.",
         tech: ["React", "TailwindCSS", "API"],
-        image: cleva, // Place images in public folder
+        image: cleva, 
         live: "https://cleva.online/",
     },
     {
@@ -36,7 +36,7 @@ const projects = [
             "Designed and built a custom sales tracking dashboard to help a small business client monitor her sales performance. The dashboard includes key metrics such as total revenue, monthly trends, top-selling products, and customer insights. Delivered a user-friendly, visually appealing interface to support data-driven decision-making. Test credentials: 📧 Email: ybenson96@gmail.com 🔐 Password: test",
         tech: ["React", "TailwindCSS", "Paystack API", "Firebase Auth", "REST API"],
         image: mother,
-        live: "http://pos.dealslet.com",
+        live: "https://dealslet.com/",
         github: "",
     }
 
