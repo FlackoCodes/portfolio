@@ -2,6 +2,7 @@ import fakye from "../images/fakye.jpg";
 import cleva from "../images/cleva.jpg";
 import mother from "../images/mother.jpg";
 import food from "../images/food.jpg"; 
+import newMother from "../images/mother.png"; 
 
 const projects = [
     {
@@ -10,6 +11,13 @@ const projects = [
         tech: ["React", "TailwindCSS", "API"],
         image: cleva, 
         live: "https://cleva.online/",
+    },
+     {
+        title: "Mother Store",
+        description: "Developed a responsive WordPress site for Mothercare Inc., combining modern UI design with plugin integrations like WhatsApp chat and e-commerce tools to enhance customer experience and brand presence.",
+        tech: ["Wordpress, Plugins"],
+        image: newMother,
+        live: "https://clickmothercare.com",
     },
     {
         title: "Fakye Waitlist",
@@ -37,7 +45,7 @@ const projects = [
         tech: ["React", "TailwindCSS", "Paystack API", "Firebase Auth", "REST API"],
         image: mother,
         live: "https://dealslet.com/",
-        github: "",
+       
     }
 
 ];

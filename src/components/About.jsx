@@ -30,6 +30,8 @@ export default function About() {
                             <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">TailwindCSS</li>
                             <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">Next.js</li>
                             <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">Git</li>
+                            <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">Wordpress</li>
+                            <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">WooCommerce</li>
                             <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">Mobile Responsiveness</li>
                             <li className="bg-[#facc15] text-[#2d2e32] px-3 py-1 rounded-md">State Management</li>
                         </ul>
