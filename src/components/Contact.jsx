@@ -1,4 +1,3 @@
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -46,36 +45,6 @@ export default function Contact() {
                         Send Message
                     </button>
                 </form>
-
-                <div className="mt-10 flex justify-center gap-6 text-xl">
-                    <a
-                        href="https://github.com/yourusername"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="GitHub"
-                        className="hover:text-[#facc15] transition-colors"
-                    >
-                        <FaGithub />
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/yourusername"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="LinkedIn"
-                        className="hover:text-[#facc15] transition-colors"
-                    >
-                        <FaLinkedinIn />
-                    </a>
-                    <a
-                        href="https://twitter.com/yourusername"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Twitter"
-                        className="hover:text-[#facc15] transition-colors"
-                    >
-                        <FaTwitter />
-                    </a>
-                </div>
             </div>
         </section>
     );
