@@ -11,8 +11,8 @@ export default function Contact() {
                     Have a question or want to work together? Drop me a message below or reach out on social
                     media.
                 </p>
-
-                <form
+                
+                  <form
                     action="https://formspree.io/f/YOUR_FORM_ID"
                     method="POST"
                     className="grid grid-cols-1 gap-6 text-left"
