@@ -1,18 +1,10 @@
-import fakye from "../images/fakye.jpg";
 import cleva from "../images/cleva.jpg";
 import mother from "../images/mother.jpg";
-import food from "../images/food.jpg"; 
 import newMother from "../images/mother.png"; 
+import tech from "../images/tech.png"
 
 const projects = [
-       {
-        title: "Fakye Waitlist",
-        description: "“A 10-page web app built with a clean design, Firebase authentication, and a smooth mobile-first experience—showcasing my focus on usability and modern front-end development.",
-        tech: ["React, TailwindCSS, TypeScript, Firebase, Redux"],
-        image: fakye,
-        live: "https://fakye-waitlist.vercel.app/",
-        github: "https://github.com/FlackoCodes/newTech",
-    },
+
     {
         title: "Cleva Online Website",
         description: "Worked on the frontend alongside the lead developer, collaborating closely using cutting-edge tech tools to build a clean, efficient, and user-friendly website.",
@@ -28,12 +20,11 @@ const projects = [
         live: "https://clickmothercare.com",
     },
     {
-
         title: "New Tech Web App",
         description:
-            "A food recipe web app built using a public food API, allowing users to search, add, and favorite different types of meals. Features include mobile responsiveness and Firebase authentication.",
-        tech: ["React", "TailwindCSS", "REST API"],
-        image: food,
+            "A 10-page web app built with a clean design, Firebase authentication, and a smooth mobile-first experience—showcasing my focus on usability and modern front-end development.",
+        tech: ["React", "TailwindCSS", "REST API", "Redux Toolkit", "Firebase"],
+        image: tech,
         live: "https://new-tech-six.vercel.app/",
         github: "https://github.com/FlackoCodes/food-recipe",
     },
